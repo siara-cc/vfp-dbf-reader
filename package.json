@@ -1,6 +1,6 @@
 {
   "name": "vfp-dbf-reader.siara.cc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Read Visual Foxpro database files",
   "main": "demo_vfp_dbf_reader.js",
   "scripts": {

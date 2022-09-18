@@ -21,7 +21,7 @@ npm run test
 
 ## Using it in your application
 
-To compress and decompress strings in your application, import `vfp-dbf-reader.js`:
+To read Visual Foxpro dbfs in your application, import `vfp-dbf-reader.js`:
 
 ```Javascript
 var VfpDbfReader = require("./vfp-dbf-reader.js");
