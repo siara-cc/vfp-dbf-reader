@@ -1,0 +1,26 @@
+{
+  "name": "vfp-dbf-reader.siara.cc",
+  "version": "1.0.0",
+  "description": "Read Visual Foxpro database files",
+  "main": "demo-vfp-dbf-reader.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "xbase",
+    "database",
+    "legacy",
+    "visual foxpro",
+    "foxpro",
+    "javascript"
+  ],
+  "author": "Arundale Ramanathan <arun@siara.cc>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siara-cc/vfp-dbf-reader/issues"
+  },
+  "homepage": "https://github.com/siara-cc/vfp-dbf-reader",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
