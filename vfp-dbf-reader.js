@@ -16,8 +16,12 @@ class VfpDbfReader {
         this.flags = buf[28]; // 0x01 - has CDX, 0x02 - has Memo, 0x04 - is a .dbc
         if (this.flags & 0x02) {
             var memoFileName = filename.substring(0, filename.length - 1) + "t";
-            if (filename.endsWith(".dbf") || filename.endsWith(".DBF"))
+            if (filename.endsWith(".dbf") || filename.endsWith(".DBF")) {
                 memoFileName = filename.substring(0, filename.length - 3) + "fpt";
+                if (!fs.existsSync(memoFileName))
+                  memoFileName = filename.substring(0, filename.length - 3) + "FPT";
+            }
+
             this.fdMemo = fs.openSync(memoFileName);
             if (8 != fs.readSync(this.fdMemo, buf, 0, 8, 0)) {
                 try { fs.closeSync(this.fdMemo); } catch (e) { }
