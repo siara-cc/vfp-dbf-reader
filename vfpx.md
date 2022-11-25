@@ -4,11 +4,11 @@ Reading VFP dbf and fpt files using Javascript
 
 # What problem does this project address?
 
-This allows people to use Javascript to read Visual Foxpro database and memo files
+This allows people to use Javascript to read Visual Foxpro tables and memo files
 
 # What are the goals of this project?
 
-With this project, Visual foxpro database files and memo files can be read using Javascript either in back end or frontend.
+With this project, Visual foxpro dbf and fpt files can be read using Javascript either in back end or frontend.
 
 # What programming languages or technologies will be used for/by this project?
 
